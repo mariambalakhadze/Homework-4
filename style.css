@@ -1,0 +1,204 @@
+body{
+    /* // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+     */
+    font-family: "Inter", sans-serif;
+  }
+
+p{
+    margin: 0;
+  }
+  
+a{
+    text-decoration: none;
+    color: #535353;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+  }
+  
+.header{
+    margin-top: 80px;
+    /* left:52px;
+    right: 52px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  
+.title{
+    width: 716px;
+    height: 92px;
+    gap: 4px;
+    font-weight: 600;
+  }
+  
+.title-description{
+    max-width: 760px;
+    height: 70px;
+    font-weight: 400;
+    color: #5f6980;
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  
+.sub-title{
+    font-size: 54px;
+    line-height: 62px;
+  }
+  
+.team{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .employees {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:32px;
+    margin-left:52px;
+    margin-right:52px;
+    margin-bottom:17px;
+  }
+  
+.box{
+    
+    max-width: 310px;
+   
+    max-height: 430px;
+    padding: 0px 0px 16px 0px;
+    gap:16px;
+    border: 1px solid #EAECF0; 
+    margin-bottom:48px;
+  }
+  .employee-details {
+    gap:24px;
+    margin-top: 16px;
+  }
+  .employee-name {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #282828;
+  }
+  
+  .employee-position {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #3E3E59;
+  }
+  
+  .text {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5F6980;
+  }
+  
+  .employee-socials {
+    display: flex;
+    /* justify-content: space-between; */
+    gap:16px;
+    margin-top: 24px;
+  }
+  
+  img {
+    width:100%;
+  }
+  
+
+footer{
+    background-color: #53535354;
+    max-width: 1654px;
+    height: 512px;
+  }
+  
+.footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.logos{
+    max-width: 300px;
+    height: 221px;
+    margin-top: 108px;
+    margin-left: 52px;
+  }
+  
+.links{
+    max-width:136px;
+    height: 223px;
+    margin-top:108px;
+  }
+  
+.services{
+    max-width:199px;
+    height: 223px;
+    margin-top:108px;
+   
+  }
+  
+.languages {
+    max-width:107px;
+    height: 127.45px;
+    margin-top:108px;
+    margin-right: 52px;
+  }
+  
+.site-logo {
+    width: 100px;
+    height: 64px;
+    margin-bottom:30px;
+    /* margin-bottom: 32px; */
+  
+  }
+  
+  .footer-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #535353;
+    margin-bottom: 35px;
+  }
+  
+  .footer-socials {
+    width: 104px;
+    height: 24px;
+    /* margin-left:52px; */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #1E1E1E;
+  }
+  .links .footer-title, .services .footer-title   {
+    margin-bottom:71px;
+  }
+  
+.languages .footer-title  {
+    margin-bottom:58.45px;
+  }
+  
+.links p, .services p {
+    height:48px;
+  }
+  
+button{
+    width:80px;
+    height:45px;
+    padding: 14px 16px;
+    gap:10px; 
+    background-color:#054A68;
+    border:none;
+    color:white;
+  }
